@@ -1,0 +1,28 @@
+{
+  "name": "NodeSQLServerCentroOdontologicoAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "~1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "msnodesqlv8": "^2.0.10",
+    "mssql": "^6.3.1",
+    "parser": "^0.1.4",
+    "rest-mssql-nodejs": "^1.0.9",
+    "tedious": "^9.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
